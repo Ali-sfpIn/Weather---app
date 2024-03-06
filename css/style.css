@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(87, 59, 119) !important;
+}
+
+.weather-card {
+  background: linear-gradient(
+    90deg,
+    hsla(145, 83%, 74%, 1) 0%,
+    hsla(204, 77%, 76%, 1) 100%
+  );
+  min-width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  cursor: context-menu;
+}
+
+.search-icon {
+  background-color: white;
+  width: 30px;
+  padding: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.search-inp {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-family: sintony;
+}
+
+.weather-icon {
+  width: 150px;
+}
+
+.temperature {
+  font-size: 50px;
+}
+
+.city-name {
+  font-size: 35px;
+}
+
+.humidity-wind {
+  width: 100%;
+}
+
+.wind-icon,
+.humidity-icon {
+  width: 50px;
+}
+
+.humidity-percentage,
+.wind-speed {
+  font-size: 25px;
+}
+
+.search-icon:hover {
+  background-color: rgb(71, 105, 140);
+  transition: all 0.7s;
+}

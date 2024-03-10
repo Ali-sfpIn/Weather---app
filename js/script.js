@@ -17,7 +17,7 @@ const fetcher = async function (cityName) {
       throw new Error("Cant find your city, Please add another city");
     return await deliver.json();
   } catch (error) {
-    alert(`Error:${error.message}`);
+    alert(`Error: ${error.message}`);
   }
 };
 
